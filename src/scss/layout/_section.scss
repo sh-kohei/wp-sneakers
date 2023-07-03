@@ -1,0 +1,29 @@
+.l-section {
+    padding: 50px 0;
+
+    &__container {
+        &--max {
+            width: 100%;
+        }
+
+        &--w1200 {
+            width: min(100%, 1230px);
+            margin: 0 auto;
+            padding: 0 15px;
+        }
+    }
+
+    &__title {
+        font-size: 2rem;
+        text-align: center;
+        margin-bottom: 30px;
+
+        &--black {
+            color: var(--black);
+        }
+
+        &--white {
+            color: var(--white);
+        }
+    }
+}

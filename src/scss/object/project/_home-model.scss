@@ -1,0 +1,19 @@
+@use '../setting/setting-merge' as *;
+
+.p-home-model {
+    &__content {
+        display: grid;
+        gap: 30px;
+
+        @include mq(pc) {
+            grid-template-columns: repeat(3, 1fr);
+        }
+    }
+
+    &__button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+    }
+}

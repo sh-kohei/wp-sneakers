@@ -1,0 +1,32 @@
+@use '../setting/setting-merge' as *;
+
+.c-card {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 10px 0px;
+    transition: all .5s;
+
+    &:hover {
+        transform: scale(1.01) translateY(-10px);
+    }
+
+    &__text {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding: 15px;
+    }
+
+    &__category {
+        &-item {
+            padding: 5px 10px;
+            background-color: var(--gray);
+            color: var(--white);
+            border-radius: 20px;
+        }
+    }
+
+    &__time {
+        text-align: right;
+    }
+}

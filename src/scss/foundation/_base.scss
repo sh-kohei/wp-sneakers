@@ -1,0 +1,19 @@
+@use '../object/setting/setting-merge' as *;
+
+html {
+  // font-family:;
+  font-family: 'Belanosima', 'Noto Serif JP', sans-serif, serif;
+}
+
+a {
+  cursor: pointer;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.single p {
+  margin: 1em 0;
+}

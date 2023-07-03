@@ -1,0 +1,10 @@
+.pagination {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .page-numbers:not(.prev, .next) {
+        font-size: 20px;
+    }
+}
